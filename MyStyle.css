@@ -252,11 +252,17 @@ body{
 
 @media screen and (max-width: 950px)
 {
+    #logo{
+        font-size: 20px;
+    }
+    #navbar ul li{
+        font-size: 0.75rem;
+    }
     .wallpaper h1{
         position: absolute;
         top: 5rem;
         font-weight: 20;
-        font-size: 2rem;
+        font-size: 4rem;
     }
     #play{
         font-size: 1.5em;
@@ -268,6 +274,12 @@ body{
         color: blue;
         font-weight: 800;
         padding: 16px;
+    }
+    .line{
+        display: none;
+    }
+    .imgbox{
+        display: none;
     }
     .gameContainer{
         flex-wrap: wrap;
